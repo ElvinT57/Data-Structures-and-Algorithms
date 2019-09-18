@@ -33,8 +33,6 @@ public Class MergeSort{
                     //divide i by 2 to get the appropriate index of temp
                     temp[i / 2] = merge(mergedArrays[i], mergedArrays[i + 1]);
             }
-            //prints the vector each iteration
-            print2DArray(temp);
             //update the mergedArrays
             mergedArrays = temp;
         }
